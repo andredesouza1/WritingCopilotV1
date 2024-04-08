@@ -221,4 +221,3 @@ with col1:
     st.markdown(colored_article, unsafe_allow_html=True)
 
 
-st.write(st.session_state)
