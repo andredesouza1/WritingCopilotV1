@@ -27,7 +27,7 @@ if "select_model" not in st.session_state:
 st.header('Alpha Version 0.0.1')
 st.title('Create an Article')
 
-openai_api_key = st.text_input('Enter OpenAI API Key')
+openai_api_key = st.text_input('Enter OpenAI API Key',value="Insert API Key")
 
 select_model = st.selectbox("Select Model",["gpt-3.5-turbo (Cost $0.5 per 1M Tokens)", "gpt-4-0125-preview (Cost $10 per 1M tokens)"])
 
